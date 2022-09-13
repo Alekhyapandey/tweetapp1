@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tweetapp.usersmicroservice", "com.tweetapp.usersmicroservice\com.tweetapp.usersmicroservice.csproj", "{77FB5A35-2802-4078-9B0D-0E60D0D90C7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tweetapp.tweetmicroservice", "com.tweetapp.tweetmicroservice\com.tweetapp.tweetmicroservice.csproj", "{550FC3B5-21ED-4F2B-B0E4-931D7F957C8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "com.tweetapp.authenticationmicroservice", "com.tweetapp.authenticationmicroservice\com.tweetapp.authenticationmicroservice.csproj", "{4BCB46E0-AE23-4A9D-886C-AFE9A0F44488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8622FA54-CDAF-47DB-8D39-88B9C03FFE72}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserUnitTest", "UserUnitTest\UserUnitTest.csproj", "{B395F599-2043-4C4A-A101-225C4FD0633B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetUnitTest", "TweetUnitTest\TweetUnitTest.csproj", "{7DBCFEF0-9C5C-4184-92CD-3CD435C6CED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthUnitTest", "AuthUnitTest\AuthUnitTest.csproj", "{F8713A33-B76B-4E36-A0F9-5EE79F3C0F64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FB5A35-2802-4078-9B0D-0E60D0D90C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FB5A35-2802-4078-9B0D-0E60D0D90C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FB5A35-2802-4078-9B0D-0E60D0D90C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FB5A35-2802-4078-9B0D-0E60D0D90C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550FC3B5-21ED-4F2B-B0E4-931D7F957C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550FC3B5-21ED-4F2B-B0E4-931D7F957C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550FC3B5-21ED-4F2B-B0E4-931D7F957C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550FC3B5-21ED-4F2B-B0E4-931D7F957C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCB46E0-AE23-4A9D-886C-AFE9A0F44488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCB46E0-AE23-4A9D-886C-AFE9A0F44488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCB46E0-AE23-4A9D-886C-AFE9A0F44488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCB46E0-AE23-4A9D-886C-AFE9A0F44488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B395F599-2043-4C4A-A101-225C4FD0633B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B395F599-2043-4C4A-A101-225C4FD0633B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B395F599-2043-4C4A-A101-225C4FD0633B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B395F599-2043-4C4A-A101-225C4FD0633B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBCFEF0-9C5C-4184-92CD-3CD435C6CED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBCFEF0-9C5C-4184-92CD-3CD435C6CED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBCFEF0-9C5C-4184-92CD-3CD435C6CED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBCFEF0-9C5C-4184-92CD-3CD435C6CED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8713A33-B76B-4E36-A0F9-5EE79F3C0F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8713A33-B76B-4E36-A0F9-5EE79F3C0F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8713A33-B76B-4E36-A0F9-5EE79F3C0F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8713A33-B76B-4E36-A0F9-5EE79F3C0F64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEE737C1-CD64-49BC-BB65-97B71C6BBEF2}
+	EndGlobalSection
+EndGlobal
